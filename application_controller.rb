@@ -7,4 +7,9 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
+get '/i hope this works' do 
+  erb :page2
+end
+
+
 end
